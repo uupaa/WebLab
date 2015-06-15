@@ -1,0 +1,13 @@
+{
+    "name":         "WebAppManifest display:standalone test",
+    "short_name":   "standalone",
+    "icons": [{
+        "src":      "icon.png",
+        "sizes":    "64x64",
+        "type":     "image/png"
+    }],
+    "start_url":    "display.standalone.html",
+    "display":      "standalone",
+    "orientation":  "langscape"
+}
+

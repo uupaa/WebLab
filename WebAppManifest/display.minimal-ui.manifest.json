@@ -1,0 +1,13 @@
+{
+    "name":         "WebAppManifest display:minimal-ui test",
+    "short_name":   "minimal-ui",
+    "icons": [{
+        "src":      "icon.png",
+        "sizes":    "64x64",
+        "type":     "image/png"
+    }],
+    "start_url":    "display.minimal-ui.html",
+    "display":      "minimal-ui",
+    "orientation":  "langscape"
+}
+

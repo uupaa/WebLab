@@ -1,0 +1,13 @@
+{
+    "name":         "WebAppManifest display:fullscreen test",
+    "short_name":   "fullscreen",
+    "icons": [{
+        "src":      "icon.png",
+        "sizes":    "64x64",
+        "type":     "image/png"
+    }],
+    "start_url":    "display.fullscreen.html",
+    "display":      "fullscreen",
+    "orientation":  "langscape"
+}
+

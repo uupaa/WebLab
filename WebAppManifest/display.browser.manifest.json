@@ -1,0 +1,13 @@
+{
+    "name":         "WebAppManifest display:browser test",
+    "short_name":   "browser",
+    "icons": [{
+        "src":      "icon.png",
+        "sizes":    "64x64",
+        "type":     "image/png"
+    }],
+    "start_url":    "display.browser.html",
+    "display":      "browser",
+    "orientation":  "langscape"
+}
+
