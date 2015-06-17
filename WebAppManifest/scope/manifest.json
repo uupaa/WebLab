@@ -6,8 +6,8 @@
         "sizes":    "64x64",
         "type":     "image/png"
     }],
-    "scope":        "/scope/",
-    "start_url":    "/scope/index.html",
+    "scope":        "/WebLab/WebAppManifest/scope/",
+    "start_url":    "/WebLab/WebAppManifest/scope/index.html",
     "display":      "fullscreen",
     "orientation":  "langscape"
 }
