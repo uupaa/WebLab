@@ -1,3 +1,5 @@
+/* # App mode settings */
+
 * {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-touch-callout: none;
@@ -5,16 +7,25 @@
     box-sizing: border-box;
 }
 
-/* --- avoid scroll --- */
+/* ## avoid scroll */
 html,body {
     overflow: hidden;
     height: 100%;
 }
 
-/* --- momentum-scrolling --- */
+
+/* # App mode - iOS hacks */
+
+/* ## prevent text size change on orientation change */
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+/* ## momentum-scrolling */
 .momentum-scrolling {
     -webkit-overflow-scrolling: touch;
 }
 .momentum-scrolling > * {
     -webkit-transform: translateZ(0);
 }
+
