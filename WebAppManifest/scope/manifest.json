@@ -2,7 +2,7 @@
     "name":         "WebAppManifest display:fullscreen + scope test",
     "short_name":   "full+scope",
     "icons": [{
-        "src":      "icon.png",
+        "src":      "/WebLab/WebAppManifest/icon.png",
         "sizes":    "64x64",
         "type":     "image/png"
     }],
