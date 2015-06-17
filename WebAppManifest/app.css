@@ -5,10 +5,16 @@
     box-sizing: border-box;
 }
 
+/* --- avoid scroll --- */
+html,body {
+    overflow: hidden;
+    height: 100%;
+}
+
 /* --- momentum-scrolling --- */
 .momentum-scrolling {
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
 }
 .momentum-scrolling > * {
-    -webkit-transform: translateZ(0)
+    -webkit-transform: translateZ(0);
 }
