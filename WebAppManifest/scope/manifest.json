@@ -1,0 +1,14 @@
+{
+    "name":         "WebAppManifest display:fullscreen + scope test",
+    "short_name":   "full+scope",
+    "icons": [{
+        "src":      "icon.png",
+        "sizes":    "64x64",
+        "type":     "image/png"
+    }],
+    "scope":        "/scope/",
+    "start_url":    "/scope/index.html",
+    "display":      "fullscreen",
+    "orientation":  "langscape"
+}
+
